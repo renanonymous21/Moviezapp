@@ -26,7 +26,7 @@ struct ServerEnvironments {
     
     lazy var imageBaseUrl: String = {
         guard let url = Bundle.main.object(forInfoDictionaryKey: "ImageBaseUrl") as? String else {
-            fatalError("IMAGE API KEY OBJECT NOT FOUND!")
+            fatalError("IMAGE BASE URL OBJECT NOT FOUND!")
         }
         return url
     }()
