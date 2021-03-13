@@ -7,4 +7,4 @@ All images like movie poster and user avatar are cached after first time load (a
 Main Functionality:
 1. Show list of popular, upcoming, top rated and now playing movies
 2. Show the detail information and reviews of the movie
-3. Add movie to favorite list, read all favorite movies, delete movie by swipe left on favorite movie table cell (this operations are local only)
+3. Add movie to favorite list, read all favorite movies, delete movie by swipe left on favorite movie table cell (this operations are only for local data)
